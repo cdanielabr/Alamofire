@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.9
 //
 //  Package.swift
 //
@@ -34,7 +34,8 @@ let package = Package(name: "Alamofire",
                                           targets: ["Alamofire"])],
                       targets: [.target(name: "Alamofire",
                                         path: "Source",
-                                        exclude: ["Info.plist", "PrivacyInfo.xcprivacy"],
+                                        exclude: ["Info.plist"],
+                                        resources: [.process("PrivacyInfo.xcprivacy")],
                                         linkerSettings: [.linkedFramework("CFNetwork",
                                                                           .when(platforms: [.iOS,
                                                                                             .macOS,

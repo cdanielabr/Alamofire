@@ -423,6 +423,10 @@
 		4CFB030F1D7D2FA20056F249 /* utf8_string.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB02F41D7D2FA20056F249 /* utf8_string.txt */; };
 		4DD67C251A5C590000ED2280 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F897FF4019AA800700AB5182 /* Alamofire.swift */; };
 		8035DB621BAB492500466CB3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8111E3319A95C8B0040E7D1 /* Alamofire.framework */; };
+		C936EC9D2CB4A47900366E17 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C936EC9C2CB4A47900366E17 /* PrivacyInfo.xcprivacy */; };
+		C936EC9E2CB4A47900366E17 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C936EC9C2CB4A47900366E17 /* PrivacyInfo.xcprivacy */; };
+		C936EC9F2CB4A47900366E17 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C936EC9C2CB4A47900366E17 /* PrivacyInfo.xcprivacy */; };
+		C936ECA02CB4A47900366E17 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C936EC9C2CB4A47900366E17 /* PrivacyInfo.xcprivacy */; };
 		E4202FD01B667AA100C997FB /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE2724E1AF88FB500F1D59A /* ParameterEncoding.swift */; };
 		E4202FD21B667AA100C997FB /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE2C451AF89FF300BABAE5 /* ResponseSerialization.swift */; };
 		E4202FD41B667AA100C997FB /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F897FF4019AA800700AB5182 /* Alamofire.swift */; };
@@ -597,6 +601,7 @@
 		4CFB02F41D7D2FA20056F249 /* utf8_string.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = utf8_string.txt; sourceTree = "<group>"; };
 		4CFD6B132201338E00FFB5E3 /* CachedResponseHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedResponseHandlerTests.swift; sourceTree = "<group>"; };
 		4DD67C0B1A5C55C900ED2280 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C936EC9C2CB4A47900366E17 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		E4202FE01B667AA100C997FB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8111E3319A95C8B0040E7D1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8111E3719A95C8B0040E7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1021,6 +1026,7 @@
 		F8111E3619A95C8B0040E7D1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C936EC9C2CB4A47900366E17 /* PrivacyInfo.xcprivacy */,
 				F8111E3719A95C8B0040E7D1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -1307,6 +1313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C936EC9F2CB4A47900366E17 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1352,6 +1359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C936EC9E2CB4A47900366E17 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1359,6 +1367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C936ECA02CB4A47900366E17 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1366,6 +1375,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C936EC9D2CB4A47900366E17 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
